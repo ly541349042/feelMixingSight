@@ -13,6 +13,7 @@
 		BAB3D31A1C313C0600A0ED48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB3D3181C313C0600A0ED48 /* Main.storyboard */; };
 		BAB3D31C1C313C0600A0ED48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB3D31B1C313C0600A0ED48 /* Assets.xcassets */; };
 		BAB3D31F1C313C0600A0ED48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB3D31D1C313C0600A0ED48 /* LaunchScreen.storyboard */; };
+		BAB3D3281C313DE600A0ED48 /* LYCustomSegmentSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB3D3271C313DE600A0ED48 /* LYCustomSegmentSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BAB3D31B1C313C0600A0ED48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB3D31E1C313C0600A0ED48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB3D3201C313C0600A0ED48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB3D3261C313DE600A0ED48 /* LYCustomSegmentSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCustomSegmentSelectView.h; sourceTree = "<group>"; };
+		BAB3D3271C313DE600A0ED48 /* LYCustomSegmentSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCustomSegmentSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BAB3D3131C313C0600A0ED48 /* AppDelegate.m */,
 				BAB3D3151C313C0600A0ED48 /* ViewController.h */,
 				BAB3D3161C313C0600A0ED48 /* ViewController.m */,
+				BAB3D3261C313DE600A0ED48 /* LYCustomSegmentSelectView.h */,
+				BAB3D3271C313DE600A0ED48 /* LYCustomSegmentSelectView.m */,
 				BAB3D3181C313C0600A0ED48 /* Main.storyboard */,
 				BAB3D31B1C313C0600A0ED48 /* Assets.xcassets */,
 				BAB3D31D1C313C0600A0ED48 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB3D3281C313DE600A0ED48 /* LYCustomSegmentSelectView.m in Sources */,
 				BAB3D3171C313C0600A0ED48 /* ViewController.m in Sources */,
 				BAB3D3141C313C0600A0ED48 /* AppDelegate.m in Sources */,
 				BAB3D3111C313C0600A0ED48 /* main.m in Sources */,
